@@ -90,6 +90,11 @@ const Profile = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link to="/profile/dislikes" className="nav-link">
+                Dislikes
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/profile/tuits-and-replies" className="nav-link">
                 Tuits & replies
               </Link>

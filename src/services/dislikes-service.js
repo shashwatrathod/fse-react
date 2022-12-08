@@ -20,3 +20,6 @@ export const hasUserDislikedTheTuit = (uid, tid) => {
     return response.data?._id !== undefined;
   });
 };
+
+export const findAllTuitsDislikedByUser = (userId) =>
+  api.get(`${USERS_API}/${userId}/dislikes`).then((response) => response.data);
