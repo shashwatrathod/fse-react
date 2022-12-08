@@ -6,17 +6,17 @@ function Navigation() {
   const {pathname} = useLocation();
   // console.log(location.pathname);
   const links = [
-    {label: 'Tuiter', icon: 'fa-square-t', path: '/tuiter'},
-    {label: 'Home', icon: 'fa-home', path: '/home'},
-    {label: 'Explore', icon: 'fa-hashtag', path: '/explore'},
-    {label: 'Notifications', icon: 'fa-bell', path: '/notifications'},
-    {label: 'Messages', icon: 'fa-envelope', path: '/messages'},
-    {label: 'Bookmarks', icon: 'fa-bookmark', path: '/bookmarks'},
-    {label: 'Lists', icon: 'fa-list', path: '/lists'},
-    {label: 'Profile', icon: 'fa-user', path: '/profile'},
-    {label: 'Movies', icon: 'fa-user', path: '/movies'},
-    {label: 'More', icon: 'fa-circle-ellipsis', path: '/more'},
-    {label: 'Login', icon: 'fa-user', path: '/login'},
+    { label: "Tuiter", icon: "fa-square-t", path: "/tuiter" },
+    { label: "Home", icon: "fa-home", path: "/home" },
+    { label: "Explore", icon: "fa-hashtag", path: "/explore" },
+    { label: "Notifications", icon: "fa-bell", path: "/notifications" },
+    { label: "Messages", icon: "fa-envelope", path: "/messages" },
+    { label: "Bookmarks", icon: "fa-bookmark", path: "/bookmarks" },
+    { label: "Lists", icon: "fa-list", path: "/lists" },
+    { label: "Profile", icon: "fa-user", path: "/profile" },
+    { label: "Movies", icon: "fa-user", path: "/movies" },
+    { label: "More", icon: "fa-circle-ellipsis", path: "/more" },
+    { label: "Login", icon: "fa-user", path: "/login" },
   ];
   return (
     <div className="ttr-navigation">

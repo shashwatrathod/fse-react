@@ -85,6 +85,11 @@ const Profile = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link to="/profile/likes" className="nav-link">
+                Likes
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to="/profile/tuits-and-replies" className="nav-link">
                 Tuits & replies
               </Link>
@@ -92,11 +97,6 @@ const Profile = () => {
             <li className="nav-item">
               <Link to="/profile/media" className="nav-link">
                 Media
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/profile/likes" className="nav-link">
-                Likes
               </Link>
             </li>
           </ul>
